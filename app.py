@@ -97,7 +97,7 @@ if query:
         <div style="padding: 15px; border: 1px solid #ddd; border-radius: 10px; margin-bottom: 10px;">
             <div style="display:flex; justify-content:space-between;">
                 <b>{doc['title']}</b>
-                <span style="background:#eee; padding: 2px 8px; border-radius: 5px; font-size: small;">{doc['category']}</span>
+                <span style="background:#eee; color:#333; padding: 2px 8px; border-radius: 5px; font-size: small;">{doc['category']}</span>
             </div>
             <p style="margin: 5px 0;">{doc['content']}</p>
             <small style="color: grey;">Совпадение: {int(score*100)}%</small>
